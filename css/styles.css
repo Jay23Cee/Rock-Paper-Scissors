@@ -68,8 +68,8 @@ html {
     border:5px solid #73AD21;
     line-height: 10px;
     position: relative;
-    top: 50px;
-    left: 180px;
+    top: 10px;
+    left: 150px;
 
 
 
@@ -129,8 +129,8 @@ html {
 
     .Image-Box {
         position: relative;
-        top : 20px;
-        left: 120px;
+        top : -25px;
+        left: 90px;
      
         border-bottom-width: 4px;
         border-block-end-width:   2px;
@@ -150,6 +150,7 @@ html {
 
     .Image-Box img{
       border-radius: 22em;
+     
         -webkit-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
 -moz-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
 box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
@@ -167,9 +168,15 @@ text-transform: none;
 
     }
 
+    .Image-Box img{
+     
+    }
+
     .playimg{
         background: rgb(65,66,66);
 background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(66, 113, 240) 100%);
+           border: 6px groove rgba(0, 247, 21, 0.993);
+        
 
 
 
@@ -188,6 +195,9 @@ background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(66, 113, 240) 100%);
     .compimg{
         background: rgb(65,66,66);
 background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(224, 16, 16) 100%);
+
+
+border: 6px groove rgba(243, 8, 8, 0.918)
     }
 
     .compimg::before{
@@ -205,9 +215,9 @@ background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(224, 16, 16) 100%);
 
 .Score_Counter{ 
     position: relative;
-    top : 30px;
-    left: 120px;
-    border:5px solid rgb(235, 75, 26);
+    top : -5px;
+    left: 90px;
+    border:5px solid rgb(40, 46, 54);
     border-bottom-width: 4px;
     border-block-end-width:   2px;
     width: 320px;
@@ -218,6 +228,10 @@ background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(224, 16, 16) 100%);
 
 
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+    -webkit-box-shadow: -26px -11px 52px -25px rgba(40,68,82,1);
+    -moz-box-shadow: -26px -11px 52px -25px rgba(40,68,82,1);
+    box-shadow: -26px -11px 52px -25px rgba(40,68,82,1);
 
 
     
