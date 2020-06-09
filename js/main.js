@@ -124,8 +124,8 @@ function updatescore(winner){
   var numcount = 0;
 function compare() {
     
-    player.innerHTML = "You have chosen " + playerChoice;
-    computer.innerHTML = "Computer chooses " + computerChoice;
+    player.innerHTML = playerChoice;
+    computer.innerHTML =computerChoice;
 
     //UserScore("user");
 
@@ -138,26 +138,26 @@ function compare() {
        console.log("This is DRAW COUNT YAY:",numcount);
 
     } else if ((playerChoice.trim() == "Rock" && computerChoice.trim()== "Paper")) {
-        outcome.innerHTML = "Defeat!";
+        outcome.innerHTML = "Paper beats Rock <br> You Lose ";
        updatescore("cpu");
     } else if ((playerChoice.trim() == "Rock" && computerChoice.trim() == "Scissors")) {
-        outcome.innerHTML = "Victory!";
+        outcome.innerHTML = "Rock beats Scissors <br> You Win";
         updatescore("user");
 
     } else if ((playerChoice.trim() == "Paper" && computerChoice.trim() == "Rock")) {
-        this.outcome.innerHTML = "Victory!";
+        this.outcome.innerHTML = "Paper beats Rock <br> You Win";
         updatescore("user");
         
     } else if ((playerChoice.trim() == "Paper" && computerChoice.trim() == "Scissors")) {
-        outcome.innerHTML = "Defeat!";
+        outcome.innerHTML = "Scissors beats Paper <br> You Lose ";
         updatescore("cpu");
 
 
     } else if ((playerChoice.trim() == "Scissors" && computerChoice.trim() =="Rock")) {
-        outcome.innerHTML = "Defeat!";
+        outcome.innerHTML = "Rock beats Scissors <br> You Lose ";
         updatescore("cpu");
     } else if ((playerChoice.trim()== "Scissors" && computerChoice.trim() == "Paper")) {
-        this.outcome.innerHTML = "Victory!";
+        this.outcome.innerHTML = "Scissors beats Paper <br> You Win";
         updatescore("user");
     }
 
