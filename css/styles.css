@@ -1,5 +1,12 @@
 html {
-    background: linear-gradient(to bottom, yellow 0%, floralwhite 100%);
+
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+    
+
+
+
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -61,8 +68,10 @@ html {
     border:5px solid #73AD21;
     line-height: 10px;
     position: relative;
-    top: 20px;
-    left: 350px;
+    top: 50px;
+    left: 180px;
+
+
 
       
     }
@@ -121,23 +130,100 @@ html {
     .Image-Box {
         position: relative;
         top : 20px;
-        left: 300px;
-        border:5px solid #73AD21;
+        left: 120px;
+     
         border-bottom-width: 4px;
         border-block-end-width:   2px;
-        width: 320px;
+        width: 375px;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3em;
+
+
+
+   
+        
+
+
+     
     }
+
+    .Image-Box img{
+      border-radius: 22em;
+        -webkit-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
+-moz-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
+box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+letter-spacing: 5.8px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+
+    }
+
+    .playimg{
+        background: rgb(65,66,66);
+background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(66, 113, 240) 100%);
+
+
+
+    }
+
+    .playimg::before{
+        content: "You";
+        text-align: center;
+        padding-left: 50px;
+        ;
+        color:white;
+        text-shadow: 3px -1px 3px rgba(0,0,0,0.6);
+
+        
+    }
+    .compimg{
+        background: rgb(65,66,66);
+background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(224, 16, 16) 100%);
+    }
+
+    .compimg::before{
+        content: "Comp";
+        text-align: center;
+        padding-left: 50px;
+        color:white;
+        text-shadow: 3px -1px 3px rgba(0,0,0,0.6);
+
+        
+    }
+
+   
 
 
 .Score_Counter{ 
     position: relative;
     top : 30px;
-    left: 300px;
+    left: 120px;
     border:5px solid rgb(235, 75, 26);
     border-bottom-width: 4px;
     border-block-end-width:   2px;
     width: 320px;
+    height:340px;
+    border-radius: 3em;
 
+
+
+
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+
+    
 
   }
-
+  
+  .Image-Box p{
+      text-align: center;
+  }

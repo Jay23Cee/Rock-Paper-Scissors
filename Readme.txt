@@ -15,3 +15,7 @@ better Title.
 WAS trying to get a counter going on.;
 found a way to link the CSS to the HTML.now it works. needs to re-arrange the bottons and get the score ready. 
     un able to retrieve the number and the increment. 
+
+
+/// NEED a way to change image on a timer. Currently got a loop going.needs
+to change only when selecting an icon. 
