@@ -18,4 +18,9 @@ found a way to link the CSS to the HTML.now it works. needs to re-arrange the bo
 
 
 /// NEED a way to change image on a timer. Currently got a loop going.needs
-to change only when selecting an icon. 
+to change only when selecting an icon.   JUN/2020
+
+/// JUN/2020
+Has been created for mobile view. Needs to change size for tablets and larger screens.
+
+
