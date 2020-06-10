@@ -15,6 +15,9 @@ html {
     
     height: 100%;
     }
+
+
+
     
     h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -27,6 +30,18 @@ html {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     }
     
+
+
+    header{
+        font-size: 35px;
+        text-align: center;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+
+
+    }
+
+
     #Rock {
     color: transparent; 
     border: 0;
@@ -65,10 +80,11 @@ html {
     .button-box {
     text-align:center; 
     width: 210px;
-    border:5px solid #73AD21;
+    border:2px solid rgb(0, 0, 0);
+    
     line-height: 10px;
     position: relative;
-    top: 10px;
+    top: -75px;
     left: 150px;
 
 
@@ -76,50 +92,23 @@ html {
       
     }
     
-    @-webkit-keyframes Floatingx{
-        from {-webkit-transform:translate(0, 0px);}
-        65% {-webkit-transform:translate(0, 15px);}
-        to {-webkit-transform: translate(0, -0px);    }    
-    }
-    
-    
+ 
     #Rock{
-        -webkit-animation-name: Floatingx;
-        -webkit-animation-duration: 5s;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-timing-function: ease-in-out;
-        -moz-animation-name: Floating;
-        -moz-animation-duration: 5s;
-        -moz-animation-iteration-count: infinite;
-        -moz-animation-timing-function: ease-in-out;
+        
         margin-left: 30px;
         margin-top: 5px;
     
     }
     
     #Paper{
-        -webkit-animation-name: Floatingx;
-        -webkit-animation-duration: 3s;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-timing-function: ease-in-out;
-        -moz-animation-name: Floating;
-        -moz-animation-duration: 5s;
-        -moz-animation-iteration-count: infinite;
-        -moz-animation-timing-function: ease-in-out;
+
         margin-left: 30px;
         margin-top: 5px;
     
     }
     
     #Scissors{
-        -webkit-animation-name: Floatingx;
-        -webkit-animation-duration: 4s;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-timing-function: ease-in-out;
-        -moz-animation-name: Floating;
-        -moz-animation-duration: 5s;
-        -moz-animation-iteration-count: infinite;
-        -moz-animation-timing-function: ease-in-out;
+
         margin-left: 30px;
         margin-top: 5px;
 
@@ -131,7 +120,7 @@ html {
         position: absolute;
   
         z-index: 2;
-        margin-top: -3em;
+        margin-top: -2em;
         margin-left: 125px;
         border: 5px solid rgb(3, 214, 56);
         border-radius: 40px 40px 40px 40px;
@@ -149,7 +138,7 @@ html {
         position: absolute;
   
         z-index: 2;
-        margin-top: -3em;
+        margin-top: -2em;
         margin-left: 335px;
         border: 5px solid rgb(199, 30, 0);
         border-radius: 40px 40px 40px 40px;
@@ -220,7 +209,7 @@ html {
 
     .Image-Box {
         position: relative;
-        top : -25px;
+        top : -5px;
         left: 90px;
      
         border-bottom-width: 4px;
@@ -230,43 +219,36 @@ html {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 3em;
 
-
-
-   
-        
-
-
-     
     }
 
+
     .Image-Box img{
-      border-radius: 22em;
-     
+         border-radius: 22em;
+
+
         -webkit-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
--moz-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
+        -moz-box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
+        box-shadow: 6px 9px 8px -1px rgba(59,59,32,1);
 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 18px;
-letter-spacing: 5.8px;
-word-spacing: 2px;
-color: #000000;
-font-weight: normal;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        letter-spacing: 5.8px;
+        word-spacing: 2px;
+        color: #000000;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
 
     }
 
-    .Image-Box img{
-     
-    }
+
 
     .playimg{
         background: rgb(65,66,66);
-background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(66, 113, 240) 100%);
-           border: 6px groove rgba(0, 247, 21, 0.993);
+        background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(66, 113, 240) 100%);
+        border: 6px groove rgba(0, 247, 21, 0.993);
         
 
 
@@ -285,10 +267,10 @@ background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(66, 113, 240) 100%);
     }
     .compimg{
         background: rgb(65,66,66);
-background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(224, 16, 16) 100%);
+        background: linear-gradient(0deg, rgba(65,66,66,1) 0%, rgb(224, 16, 16) 100%);
 
 
-border: 6px groove rgba(243, 8, 8, 0.918)
+        border: 6px groove rgba(243, 8, 8, 0.918)
     }
 
     .compimg::before{
@@ -306,7 +288,7 @@ border: 6px groove rgba(243, 8, 8, 0.918)
 
 .Score_Counter{ 
     position: relative;
-    top : 1px;
+    top : 15px;
     left: 110px;
     border:5px solid rgb(40, 46, 54);
     border-bottom-width: 4px;
@@ -315,28 +297,26 @@ border: 6px groove rgba(243, 8, 8, 0.918)
     height:340px;
     border-radius: 3em;
 
-
-
-
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
     -webkit-box-shadow: -26px -11px 52px -25px rgba(40,68,82,1);
     -moz-box-shadow: -26px -11px 52px -25px rgba(40,68,82,1);
     box-shadow: -26px -11px 52px -25px rgba(40,68,82,1);
 
-
-    
-
   }
 
 
   .score_count-wrap{
       display: grid;
-      grid-template-columns: 200px 20px ;
+      grid-template-columns: 200px 25px ;
+      grid-template-rows: 60px 60px ;
+     
+      
   }
   
   .score-utxt{
       background:rgb(1, 194, 1);
+     
   }
 
   .score-ctxt{
@@ -346,4 +326,9 @@ border: 6px groove rgba(243, 8, 8, 0.918)
 
   .Image-Box p{
       text-align: center;
+  }
+
+
+  h5{
+   font-size: 15px;
   }

@@ -45,15 +45,9 @@ var Computerimage = document.getElementById('computerImg');
 
 
 
-   
 
-
-
-var games = 0;
 function run() {
 
-games++;
-console.log(games)
   //  img_animation();
 
     playerChoice = this.innerText;
