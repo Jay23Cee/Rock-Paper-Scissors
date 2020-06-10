@@ -3,9 +3,6 @@ html {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     
-    
-
-
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,14 +30,20 @@ html {
 
 
     header{
-        font-size: 35px;
-        text-align: center;
+        font-size: 1.2em;
+       margin-left: 35%;
         text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
 
 
     }
 
+
+    .containall{
+        margin-top: 3em;
+        margin-left: 38%;
+        margin-right: 25%;
+    }
 
     #Rock {
     color: transparent; 
@@ -69,9 +72,7 @@ html {
     background-color: transparent;
     }
     
-    h5 {
-    text-align: center;
-    }
+  
     
     h3 {
     text-align: center; 
@@ -79,13 +80,13 @@ html {
     
     .button-box {
     text-align:center; 
-    width: 210px;
+    width: 13em;
     border:2px solid rgb(0, 0, 0);
     
     line-height: 10px;
     position: relative;
-    top: -75px;
-    left: 150px;
+    top: -125px;
+    left: -75px;
 
 
 
@@ -120,12 +121,12 @@ html {
         position: absolute;
   
         z-index: 2;
-        margin-top: -2em;
-        margin-left: 125px;
+        margin-top: -4.8em;
+        margin-left: -6em;
         border: 5px solid rgb(3, 214, 56);
         border-radius: 40px 40px 40px 40px;
-        width:103px;
-        height: 33px;
+        width:6.25em;
+        height: 1.2em;
         
         background: rgb(38,38,38);
         background: linear-gradient(115deg, rgba(38,38,38,0.8690826672465861) 0%, rgba(0,0,0,0.7066176812521884) 100%);
@@ -138,12 +139,12 @@ html {
         position: absolute;
   
         z-index: 2;
-        margin-top: -2em;
-        margin-left: 335px;
+        margin-top: -4.8em;
+        margin-left:5.5em;
         border: 5px solid rgb(199, 30, 0);
         border-radius: 40px 40px 40px 40px;
-        width:103px;
-        height: 33px;
+        width:6.25em;
+        height: 1.2em;
         
         background: rgb(38,38,38);
         background: linear-gradient(115deg, rgba(38,38,38,0.8690826672465861) 0%, rgba(0,0,0,0.7066176812521884) 100%);
@@ -155,7 +156,7 @@ html {
     .player-bar-txt{
                 
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size: 1em;
         letter-spacing: 3px;
         color: #ccecd3;
         text-align: center;
@@ -168,7 +169,7 @@ html {
 
 
         position: absolute;
-        top: -20px;
+        top: -1.5em;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -181,7 +182,7 @@ html {
     .computer-bar-txt{
                 
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size: 1em;
         letter-spacing: 3px;
         color: #ccecd3;
         text-align: center;
@@ -194,7 +195,7 @@ html {
 
 
         position: absolute;
-        top: -20px;
+        top: -1.5em;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -209,8 +210,8 @@ html {
 
     .Image-Box {
         position: relative;
-        top : -5px;
-        left: 90px;
+        top : -4em;
+        right: 6.75em;
      
         border-bottom-width: 4px;
         border-block-end-width:   2px;
@@ -288,13 +289,13 @@ html {
 
 .Score_Counter{ 
     position: relative;
-    top : 15px;
-    left: 110px;
+    top : -2em;
+    left: -6.84em;
     border:5px solid rgb(40, 46, 54);
     border-bottom-width: 4px;
     border-block-end-width:   2px;
-    width: 320px;
-    height:340px;
+    width: 18.9em;
+    height:22.6em;
     border-radius: 3em;
 
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
@@ -308,14 +309,17 @@ html {
 
   .score_count-wrap{
       display: grid;
-      grid-template-columns: 200px 25px ;
-      grid-template-rows: 60px 60px ;
+      grid-template-columns: 13em 2em;
+      padding-top: 0em;
+      
+
      
       
   }
   
   .score-utxt{
       background:rgb(1, 194, 1);
+      
      
   }
 
@@ -330,5 +334,7 @@ html {
 
 
   h5{
-   font-size: 15px;
+   font-size: 1em;
+   text-align: center;
+
   }
